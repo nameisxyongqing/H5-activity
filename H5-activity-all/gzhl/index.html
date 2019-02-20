@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- 阻止放大缩小 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>增换购置换礼</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="lib/swiper/2.x/idangerous.swiper.css">
+  <link rel="stylesheet" href="lib/swiper/2.x/animate.min.css">
+  <link rel="stylesheet" href="css/idangerous.swiper.3dflow.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="lib/flexible.js"></script>
+  <script src="lib/swiper/2.x/idangerous.swiper.min.js"></script>
+  <script src='lib/swiper/2.x/swiper.animate1.0.3.min.js'></script>
+  <script src='lib/swiper/2.x/idangerous.swiper.3dflow.js'></script>
+  <script src="lib/TweenMax.js"></script>
+</head>
+<body>
+<div class="swiper-container tna_swiper">
+    <audio id="music" loop="loop" autoplay style="display: none;"></audio>
+    <img class="p1-music" src="images/P1/no-music.png" alt="">
+    <div class="swiper-wrapper">
+      <!--First Slide-->
+      <div class="swiper-slide swiper-no-swiping"> 
+          <div class="ani-base ani1">
+        <img class="p1-logo" src="images/P1/logo.png" alt="">
+        <div class="p1-text">
+          <p class="p1-text1-1">鱼的记忆只有7秒</p>
+          <p class="p1-text1-2">你我之间的故事</p>
+          <p class="p1-text1-3">就发生在对上眼的一瞬间...</p>
+        </div>
+        <div class="p1-btn-box" style="display: none;">
+            <img id='p1Btn' class="p1-btn" src="images/P1/zcjh-P1-btn-1.png" alt="">
+            <p>“点击‘一键启动’，找回相遇的那份记忆”</p>
+        </div>
+        <img class="p1-preason" style="display:none;" src="images/P1/zcjh-P1-img-2.png" alt="">
+        </div>
+      </div>      
+      <!--Second Slide-->
+      <div class="swiper-slide">
+          <div class="ani-base ani2">
+              <img class="p2-img1" src="images/P2/zcjh-P2-img1.png" alt="">
+              <div class="p2-content">
+                <div class="p2-content-text">
+                   <img class="p2-img2" src="images/P2/zcjh-P2-img2.png" alt="">
+                    <p class="p2-text-1">2018 年 10 月 12 日</p>
+                    <p class="p2-text-2">是属于我们之间的瞬间</p>
+                    <p class="p2-text-3">你首付 114,576 元拥有了 轩逸·纯电</p> 
+                    <p class="p2-text-4">成为了东风日产第 100,750 名车主</p>
+                </div>
+                <div class="p2-content-text">
+                  <img class="p2-img3" src="images/P2/zcjh-P2-img3.png" alt="">
+                  <p class="p2-text-5">“我相信你仍记得”</p>   
+                  <p class="p2-text-6">正如你的名字深深刻在我心上</p>    
+                  <p class="p2-text-7">我亲爱的 代用名 先生/小姐</p>
+                </div>
+              </div>
+              <div>
+                  <img class="p2-ys" src="images/P2/P2-img-ring.png" alt="">
+                  <img class="p2-sz" src="images/P2/P2-img-fenger.png" alt="">
+              </div>
+              <img class="btn p2-btn" src="images/P2/shtx.png" alt="">
+          </div>
+      </div>
+      <!-- Third Slide -->
+      <div class="swiper-slide"> 
+          <div  class="ani-base ani3">
+              <img class="p3-img1" src="images/P3/zcjh-P2-img-1.png" alt="">
+              <img class="p3-img2" src="images/P3/zcjh-P2-img-2.png" alt="">
+              <div class="p2-content p3-content">
+                  <div class="p2-content-text p3-content-text">
+                     <img class="p2-img2 p3-img2-1" src="images/P2/zcjh-P2-img2.png" alt="" style="display:none;">
+                     <p class="p3-text-1">那一天</p>
+                     <p class="p3-text-2">我们从 广州</p>
+                     <p class="p3-text-3">车巴巴专营店 出发</p>  
+                     <p class="p3-text-3-1">从此以后</p> 
+                     <p class="p3-text-4">不管是风和日丽还是雷鸣闪电</p>    
+                     <p class="p3-text-5">不管在世界哪个角落</p>   
+                     <p class="p3-text-6">我都始终在你身旁</p>    
+                     <p class="p3-text-7">陪你度过每一个喜怒哀乐</p>  
+                  </div>
+                  <div class="p2-content-text p3-content-text">
+                    <img class="p2-img3 p3-img3" src="images/P2/zcjh-P2-img3.png" alt="" style="display:none;">
+                    <p class="p3-text-8">在 2019 年 10 月 11 日</p>   
+                    <p class="p3-text-9">你完成最后一笔月供 12,000 元</p>    
+                    <p class="p3-text-10">我们终于可以尽情相拥</p>
+                  </div>
+              </div>
+              <img class="btn p3-btn" src="images/P2/shtx.png" alt="">
+           </div>
+       </div>  
+      <!-- Fourth Slide -->   
+      <div class="swiper-slide swiper-no-swiping p4-slide"> 
+              <div  class="ani-base ani4" style="position: relative;">
+                  <img class="p4-img1" src="images/P4/zcjh-P4-img-2.png" alt="">
+                  <div class="p2-content p4-content">
+                      <div class="p2-content-text p4-content-text">
+                         <img class="p2-img2 p4-img2-1" src="images/P2/zcjh-P2-img2.png" alt="" >
+                         <p class="p4-text-1">从 2017 年 10 月 12 日至今</p>
+                         <p class="p4-text-2">1 年的经历让你成为更好的自己</p>
+                         <p class="p4-text-3">共同成长的每天都值得骄傲</p>   
+                      </div>
+                      <div class="p2-content-text p4-content-text">
+                        <img class="p2-img3 p4-img3" src="images/P2/zcjh-P2-img3.png" alt="" >
+                        <p class="p4-text-4">此时的你,需要更强大的伙伴</p>   
+                        <p class="p4-text-5">去开启下一段崭新的旅程</p>
+                      </div>
+                  </div>
+                  <div class="p4-car-show">
+                    <div class="p4-title">
+                        <img class="p4-car-tit" src="images/P4/zcjh-P4-tit-1.png" alt="">
+                        <img class="p4-car-point" src="images/P4/zcjh-P4-img-1.png" alt="">
+                    </div>
+                    <div class="p4-swiper" style="display:none">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide swiper-no-swiping" >
+                                <div class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                                        <img class="swiper-slide_car car1" src="images/P4/tianlai.png" alt="">
+                                </div>
+                            </li>
+                            <li class="swiper-slide swiper-no-swiping">
+                                    <div class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                                            <img class="swiper-slide_car car2" src="images/P4/tuda.png" alt="">
+                                        </div>
+                            </li>
+                            <li class="swiper-slide swiper-no-swiping">
+                                    <div class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                                            <img class="swiper-slide_car car3" src="images/P4/loulan.png" alt="">
+                                        </div>
+                            </li>
+                            <li class="swiper-slide swiper-no-swiping">
+                                    <div class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                                            <img class="swiper-slide_car car4" src="images/P4/qijun.png" alt="">
+                                    </div>
+                            </li>
+                          </ul>
+                    </div>
+                      <img id='p4Btn-y' class="p4-btn-y" src="images/P4/zcjh-P4-btn-1.png" alt="">
+                      <img id='p4Btn-n' class="p4-btn-n" src="images/P4/zcjh-P4-btn-2.png" alt="">
+                  </div>
+                </div>    
+       </div>
+       <!-- Fifth Slide --> 
+       <div class="swiper-slide swiper-no-swiping"> 
+          <div  class="ani-base ani5" style="position: relative;">
+              <img class="p5-text-1" src="images/P5/zcjh-P5-img1.png" alt="">
+              <img class="p5-text-2" src="images/P5/zcjh-P5-img2.png" alt="">
+              <img class="p5-text-3" src="images/P5/zcjh-P5-text1.png" alt="">
+              <img class="p5-text-4" src="images/P5/zcjh-P5-text2.png" alt="">
+              <img class="p5-text-5" src="images/P5/zcjh-P5-text3.png" alt="">
+              <img class="p5-text-6" src="images/P5/zcjh-P5-text4.png" alt="">
+              <div class="p5-text-word">
+                <p>现以全新轩逸置换奇峻,</p>
+                <p>可享受多种专属优惠</p>
+              </div>
+              <img class="p5-text-7" src="images/P5/zcjh-P5-img3.png" alt="">
+              <img class="p5-text-8" src="images/P5/zcjh-P5-card1.png" alt="">
+              <img class="p5-text-9" src="images/P5/zcjh-P5-card2.png" alt="">
+              <img class="p5-text-10" src="images/P5/zcjh-P5-card3.png" alt="">
+              <div class="p5-btn-box">
+                  <img class="p5-text-11"   src="images/P5/zcjh-P5-text6.png" alt="">
+                  <img class="p5-text-12"  src="images/P5/zcjh-P5-text5.png" alt="">
+                  <img class="p5-btn" src="images/ylq-btn.png" alt="">
+              </div>
+            </div>    
+        </div>
+       <!-- Sixth Slide --> 
+        <div class="swiper-slide swiper-no-swiping"> 
+            <div  class="ani-base ani6" style="position: relative;">
+               <div class="ani6-content">
+                  <ul>
+                      <li class="p6-li clearfix">
+                        <img class="p6-li_img" src="images/P4/loulan.png" alt="">
+                        <div class="p6-li-text fl">
+                          <p>东风日产</p>
+                          <p class="p6-li-name">奇骏置换优惠卷</p>
+                          <p>有效期:2018.12.12-2018.12.31</p>
+                        </div>
+                      </li>
+                      <li class="p6-li clearfix">
+                          <img class="fl p6-li_img" src="images/P4/loulan.png" alt="">
+                          <div class="p6-li-text fl">
+                            <p>东风日产</p>
+                            <p class="p6-li-name">奇骏置换优惠卷</p>
+                            <p>有效期:2018.12.12-2018.12.31</p>
+                          </div>
+                        </li>
+                    </ul>
+                    <a href="success.html">
+                        <div class="p6-btn">领取到卡包</div> 
+                    </a>                 
+               </div>
+               <a href="jacascript::void(0)" class="back-index">任意点击返回首页</a>
+              </div>    
+        </div>
+    </div>
+
+</body>
+</html>
+<script src='lib/jq.js'></script>
+<script>
+      $(function(){
+                var t =new TimelineMax(),
+                    t1 =new TimelineMax(),
+                    t2 =new TimelineMax(),
+                    t3 =new TimelineMax(),
+                    t4 =new TimelineMax(),
+                    tt2 =new TimelineMax(),
+                    isReceive=true,//是否已领取
+                    oneNext=true,
+                    time1=0.6,
+                    time2=0.6;
+
+            var c = document.getElementById("music");
+                c.src = "images/P1/BGM/bombs_away_free_01.mp3";
+                //处理微信的时候
+                document.addEventListener("WeixinJSBridgeReady", function(){
+                    if(typeof WeixinJSBridge == "object"){
+                        WeixinJSBridge.invoke("getNetworkType", {}, function(j){
+                            c.play();
+                        })
+                    }
+                });
+            music_state = 1;
+            //音乐按钮
+            $('.p1-music').on('click',function(){
+              if($(this).hasClass('add-music') && music_state){
+                  $(this).removeClass('add-music').attr('src','images/P1/no-music.png');
+                  c.pause();
+                   music_state = 0;
+              }else{
+                  $(this).addClass('add-music').attr('src','images/P1/music.png');
+                  c.play();
+                  music_state = 1;
+              }
+            })
+            if(isReceive){
+              $('.p5-btn').attr('src','images/ylq-btn.png');
+            }else{
+              $('.p5-btn').attr('src','images/P5/zcjh-P5-btn1.png');
+            }
+
+            var mySwiper = new Swiper('.swiper-container',{  
+              mode: "vertical",
+              speed: 0,
+              noSwiping : true,
+              noSwipingClass :'swiper-no-swiping',
+               //其他设置
+              tdFlow: {
+                  rotate : 50,
+                  stretch :0,
+                  depth: 100,
+                  modifier : 1,
+                  shadows : true
+              },
+              onSlideChangeStart: function(swiper){
+                switch(swiper.activeIndex){
+                    case 1:
+                    t1.tweenTo("state1"); 
+                    oneNext=true;
+                      break;
+                    case 2:
+                    t2.tweenTo("state2"); 
+                      break;
+                    case 3:
+                    t3.tweenTo("state3"); 
+                      break;
+                      case 4:
+                    t4.tweenTo("state4"); 
+                      break;
+                    }
+              }
+            });
+              t.to(".p1-text1-1",time1,{opacity: 1,marginTop:'0.3rem' });
+              t.to(".p1-text1-2",time1,{opacity: 1,marginTop:'0.3rem'});
+              t.to(".p1-text1-3",time1,{opacity: 1,marginTop:'0.3rem'});
+              t.add('state')
+              t.add(function(){
+                  $(".p1-btn-box").show();
+               });
+              t.stop();
+              t.tweenTo("state"); 
+              t1.to(".p2-text-1",time1,{opacity: 1,marginTop:'0.3rem' });
+              t1.to(".p2-text-2",time1,{opacity: 1,marginTop:'0.3rem'});
+              t1.to(".p2-text-3",time1,{opacity: 1,marginTop:'0.3rem'});
+              t1.to(".p2-text-4",time1,{opacity: 1,marginTop:'0.3rem'});
+              t1.to(".p2-text-5",time1,{opacity: 1,marginTop:'0.3rem'});
+              t1.to(".p2-text-6",time1,{opacity: 1,marginTop:'0.3rem'});
+              t1.to(".p2-text-7",time1,{opacity: 1,marginTop:'0.3rem'});
+              t1.add('state1')
+              t1.add(function(){
+                  $(".p2-btn").addClass('p2-btn-activit');
+               });
+              t1.stop();
+              t2.to(".p3-img1,.p3-img2",1,{opacity: 1,left:0 });
+              t2.add(function(){
+                  $('.p3-img3').show();
+                  $('.p3-img2-1').show();
+              });
+              t2.to(".p3-text-1",time1,{opacity: 1,marginTop:'0.3rem' });
+              t2.to(".p3-text-2",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-3",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to('.p3-text-3-1',time1,{opacity: 1,marginTop:'0.3rem'})
+              t2.to(".p3-text-4",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-5",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-6",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-7",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-8",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-9",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.to(".p3-text-10",time1,{opacity: 1,marginTop:'0.3rem'});
+              t2.add('state2')
+              t2.add(function(){
+                  $(".p3-btn").addClass('p2-btn-activit');
+               });
+              t2.stop();
+           
+              t3.to(".p4-text-1",time1,{opacity: 1,marginTop:'0.3rem' });
+              t3.to(".p4-text-2",time1,{opacity: 1,marginTop:'0.3rem'});
+              t3.to(".p4-text-3",time1,{opacity: 1,marginTop:'0.3rem'});
+              t3.to(".p4-text-4",time1,{opacity: 1,marginTop:'0.3rem'});
+              t3.to(".p4-text-5",time1,{opacity: 1,marginTop:'0.3rem'});
+              t3.to(".p4-title",1.5,{opacity: 1,marginTop:'0.8rem'});
+              t3.add(function(){
+                tt2.to('.ww',3.5,{opacity: 1})  
+                tt2.to('.car1',2.5,{opacity: 0});
+                tt2.to('.car2',2.5,{opacity: 0});
+                tt2.to('.car3',2.5,{opacity: 0});
+                tt2.add('sta')
+                tt2.stop();
+                tt2.tweenTo("sta");  
+                $('.p4-swiper').show();
+                var p4Swiper = new Swiper('.p4-swiper',{ 
+                    offsetSlidesBefore : 1,
+                    loop: false,
+                    autoplay : 1000,
+                    speed:1500,
+                    noSwiping : true,
+                    noSwipingClass :'swiper-no-swiping',
+                  });
+               });
+              t3.to('.ss',7,{opacity: 1,marginTop:'0.3rem'})
+              t3.to('.p4-btn-y',time1,{top: '9.3rem',left:'0.8rem',ease : "Back.easeInOut"});
+              t3.to('.p4-btn-n',time1,{top: '9.3rem',left:'5.45667rem',ease : "Back.easeInOut"});
+              t3.add('state3')
+              t3.stop();
+              t3.tweenTo("state3"); 
+              t4.to(".p5-text-1",time2,{opacity: 1,right:0 });
+              t4.to(".p5-text-2",time2,{opacity: 1,left:0});
+              t4.to(".p5-text-3",time2,{opacity: 1,top:'.6128rem'});
+              t4.to(".p5-text-4",time2,{opacity: 1,top:"1.5339rem"});
+              t4.to(".p5-text-5",time2,{opacity: 1,top:'2.9958rem'});
+              t4.to(".p5-text-6",time2,{opacity: 1,top:'3.5504rem'});
+              t4.to('.p5-text-word',time2,{opacity: 1,top:'4.1366rem'});
+              t4.to(".p5-text-7",time2,{opacity: 1,top:'3.5859rem'});
+              t4.to(".p5-text-8",time2,{opacity: 1,top:'5.2438rem'});
+              t4.to(".p5-text-9",time2,{opacity: 1,top:'8.0122rem'});
+              t4.to(".p5-text-10",time2,{opacity: 1,top:'10.74823rem'});
+              t4.to(".p5-btn-box",time2,{opacity: 1,top:' 13.47543rem'});
+              t4.add('state4')
+              t4.stop();
+              t4.tweenTo("state4");
+          // 第一页按钮
+           $('#p1Btn').on('click',function(){
+            if(oneNext){
+              c.src = "images/P1/car start.mp3";
+              c.play();
+              $('.ani1').addClass('ani1-activity');
+              $('.p1-preason').show();
+              mySwiper.enableMousewheelControl()
+              setTimeout(function(){
+                  c.src = "images/P1/BGM/bombs_away_free_01.mp3";
+                  c.pause();
+                    mySwiper.swipeNext();
+              },2500);
+              oneNext=false;
+            }
+           });   
+           $('#p4Btn-y').on('click',function(){
+              $('.p5-text-3').attr('src','images/P5/zcjh-P5-text1.png');
+              $('.p5-text-4').show();
+              mySwiper.swipeNext();
+           });
+           $('#p4Btn-n').on('click',function(){
+              $('.p5-text-3').attr('src','images/P6/zcjh-P6-text1.png').css('width','6.67737rem');
+              $('.p5-text-4').hide();
+              mySwiper.swipeNext();
+            });
+            $('.p5-btn').on('click',function(){
+              mySwiper.swipeNext();
+            });
+            $('.back-index').on('click',function(){
+              mySwiper.swipeTo(0,0)
+            });
+
+      });
+</script>

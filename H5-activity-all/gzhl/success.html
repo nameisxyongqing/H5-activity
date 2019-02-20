@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- 阻止放大缩小 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>增换购置换礼</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <style>
+      body{
+          background: #fff;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+      }
+      .bg-img{
+          width: 10rem;
+      }
+      .popup{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        background: rgba(0,0,0,0.5);
+      }
+      .popup-img{
+        width: 6.98667rem;
+        position: absolute;
+        top: 5rem;
+        left: 50%;
+        transform: translate(-50%,0);
+        -webkit-transform: translate(-50%,0);
+    }
+    .index-btn-img{
+        width: 4.026667rem;
+        position: absolute;
+        top: 8.5rem;
+        left: 50%;
+        transform: translate(-50%,0);
+        -webkit-transform: translate(-50%,0);
+    }
+  </style>
+  <script src="lib/flexible.js"></script>
+</head>
+<body>
+    <img class="bg-img" src="images/success-bg.png" alt="">
+    <div class="popup">
+        <img class="popup-img" src="images/tanchuang.png" alt="">
+        <a class="index-btn" href="index.html">
+            <img class="index-btn-img" src="images/back-index.png" alt="">
+        </a>
+    </div>
+</body>
+</html>
+<script src='lib/jq.js'></script>
